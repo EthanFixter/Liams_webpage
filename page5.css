@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+
+	background-image: url("Ruby.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100%;
+
+}
+
+}
+h1{
+	fontsize: 70px;
+	text-transform: uppercase;
+	margin: 0;
+	font-family:l;
+}
+
+.layer{
+	background-color: rgba(0, 0, 0, 0.25);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100%;
+}
+.banner-text{
+	position: absolute;
+	top: 12%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 5;
+	width: 30%;
+	padding: 10px 0;
+	text-align: center;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	font-weight: bold;
+	border: 10px inset #fff;
+}
+a{
+	display: inline-block;
+    padding: 10px;
+    border: 2px solid #fff;
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+    margin-top: 15px;
+    width: 10rem;
+}
+.row {
+	height: auto;
+	background-color: transparent;
+	width: 90%;
+	display: flex;
+	margin-top: 25%!important;
+	margin: auto;
+
+}
+
+.column2{
+	width: 50%;
+	height: auto;
+	background-color: black;
+	color: white;
+	margin: 1rem;
+	padding: 2rem;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+	border-color: whitesmoke;
+	border: 10px inset #fff;
+
+
